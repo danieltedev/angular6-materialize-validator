@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "bruno",
+    "dataNascimento": "11/05/1991",
+    "email": "bruno@teste.com",
+    "login": "bruno",
+    "senha": 123456
+  },
+  {
+    "id": 2,
+    "nome": "carlos",
+    "dataNascimento": "15/07/1991",
+    "email": "carlos@teste.com",
+    "login": "carlos",
+    "senha": 123456
+  },
+  {
+    "id": 3,
+    "nome": "lucas",
+    "dataNascimento": "02/04/1991",
+    "email": "lucas@teste.com",
+    "login": "lucas",
+    "senha": 123456
+  }
+]

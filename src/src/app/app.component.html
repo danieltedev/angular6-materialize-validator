@@ -1,0 +1,23 @@
+<hello name="{{ name }}"></hello>
+<p>
+	Start editing to see some magic happen :)
+</p>
+<div class="row">
+  <form [formGroup]="emailForm" class="col s12">
+    <div class="row">
+      <div class="input-field col s12">
+        <input #input id="email" type="email" formControlName="email">
+        <label for="email" data-error="wrong" data-success="right">Email</label>
+        <span></span>
+      </div>
+    </div>
+  </form>
+</div>
+<p>Formulario valido:</p>
+<pre>
+{{ emailForm.valid }}
+</pre>
+<p>Valor do Input:</p>
+<pre>
+{{ emailForm.value | json}}
+</pre>
